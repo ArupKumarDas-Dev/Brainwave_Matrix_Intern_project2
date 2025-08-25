@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ap BloGs — Publishing Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="page">
+    <header class="nav container">
+      <div class="brand">
+        <span class="dot"></span>
+        <span class="brand-text">Ap BloGs</span>
+      </div>
+
+      <nav class="links">
+        <a href="#" class="link">About</a>
+        <a href="#" class="link">Resource</a>
+        <a href="#" class="link">Discover</a>
+      </nav>
+
+      <div class="actions">
+        <div class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 1 1 0 15 7.5 7.5 0 0 1 0-15zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11zM21 21l-4.2-4.2" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+          <input placeholder="Search"/>
+        </div>
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+          <svg class="sun" viewBox="0 0 24 24"><path d="M12 4V2m0 20v-2M4 12H2m20 0h-2M5 5l-1.5-1.5M20.5 20.5L19 19M5 19l-1.5 1.5M20.5 3.5L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          <svg class="moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="white"/></svg>
+        </button>
+        <button class="avatar" aria-label="Profile"></button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero container">
+      <!-- Left copy card -->
+      <div class="hero-copy card elevation-3 reveal" data-reveal="slide-up">
+        <h1>Publishing platform<br/>for professional<br/>developers</h1>
+        <p>Crafted thoughts, timeless impact</p>
+      </div>
+
+      <div class="illustration elevation-2 reveal" data-reveal="fade-in">
+      </div>
+
+      <!-- Glassy rail decorations -->
+      <div class="glass-rail rail-1"></div>
+      <div class="glass-rail rail-2"></div>
+      
+      <!-- Floating glass pins & connectors (left column) -->
+      <div class="pin-group">
+        <div class="pin pin-top reveal" data-reveal="grow"></div>
+        <div class="pin pin-mid reveal" data-reveal="grow"></div>
+        <div class="pin pin-bottom reveal" data-reveal="grow"></div>
+      </div>
+
+      <!-- Writer card + callout on right -->
+      <div class="writer reveal" data-reveal="slide-left">
+        <div class="writer-illu"></div>
+        <div class="writer-line"></div>
+      </div>
+
+      <div class="callout card elevation-3 reveal" data-reveal="slide-right">
+        <h3>Show your views to the world</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem dignaccusantium ipsa dolore ab.</p>
+      </div>
+
+      <!-- Sliced photo background placeholder (use your own image) -->
+      <div class="sliced-bg elevation-1 reveal" data-reveal="scale-in">
+        <!-- Provide your own image via CSS background-image -->
+      </div>
+    </section>
+
+    <!-- Email CTA rail -->
+    <section class="cta container reveal" data-reveal="slide-up">
+      <div class="cta-rail">
+        <div class="cta-node"></div>
+        <form class="cta-form">
+          <input type="email" placeholder="email"/>
+          <button type="button" class="btn">Try Now</button>
+        </form>
+      </div>
+      <div class="cta-target"></div>
+    </section>
+
+    <!-- Popular Categories -->
+    <section class="categories container">
+      <h2 class="section-title reveal" data-reveal="fade-in">Popular Categories</h2>
+      <div class="chips reveal" data-reveal="slide-up">
+        <button class="chip">Animals</button>
+        <button class="chip">Cyber</button>
+        <button class="chip">Ai</button>
+        <button class="chip">Plants</button>
+        <button class="chip">Ocean</button>
+        <button class="chip">Travel</button>
+        <button class="chip">Food</button>
+        <button class="chip">Health</button>
+        <button class="chip">Develop</button>
+      </div>
+
+      <div class="cat-grid">
+        <div class="cat-card card elevation-2 reveal" data-reveal="slide-up">
+          <h4>bring a team together</h4>
+          <div class="mini-graph"></div>
+        </div>
+        <div class="cat-note reveal" data-reveal="fade-in">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem dignissimos quisquam iure optio, eligendi veritatis?</p>
+          <p>Autem dolor vero tempora adipisci accusantium ipsa dolore ab.</p>
+        </div>
+        <div class="cat-note reveal" data-reveal="fade-in">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem dignissimos quisquam iure optio, eligendi veritatis?</p>
+          <p>Autem dolor vero tempora adipisci accusantium ipsa dolore ab.</p>
+        </div>
+        <div class="cat-card right card elevation-2 reveal" data-reveal="slide-up">
+          <h4>Team Work</h4>
+          <div class="mini-photo"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Giant watermark -->
+    <div class="watermark">Ap BloGs</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner container">
+        <div class="f-brand">
+          <h3>Ap BloGs</h3>
+          <p>Writing at the intersection of craft and chaos.</p>
+          <div class="socials">
+            <a href="#" aria-label="LinkedIn"><span class="ico in"></span></a>
+            <a href="#" aria-label="Facebook"><span class="ico fb"></span></a>
+            <a href="#" aria-label="Instagram"><span class="ico ig"></span></a>
+          </div>
+        </div>
+
+        <div class="f-links">
+          <div>
+            <h5>About</h5>
+            <a href="#">About</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+          </div>
+          <div>
+            <h5>Documentation</h5>
+            <a href="#">FAQ</a>
+            <a href="#">Support</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="legal container">
+        <a href="#"><u>Privacy Policy</u></a>
+        <a href="#"><u>Terms of Service</u></a>
+        <p>Copyright © <span id="year"></span>. Made with <span class="heart">♥</span> Arup</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Floating decorative glass circles -->
+  <div class="decor decor-a"></div>
+  <div class="decor decor-b"></div>
+  <div class="decor decor-c"></div>
+  <div class="decor decor-d"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
